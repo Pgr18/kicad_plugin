@@ -56,12 +56,3 @@ and applies filters (manufacturer, package, max price, min stock, in-stock only)
   - PowerShell: `$env:ELITAN_COOKIE="your_cookie_header_here"`
   - Then start KiCad from the same shell session.
 
-## Local Smoke Test (outside KiCad)
-
-Run in this folder:
-
-```powershell
-python component_lookup_plugin.py
-```
-
-It prints sample JSON results to stdout using default test query.
